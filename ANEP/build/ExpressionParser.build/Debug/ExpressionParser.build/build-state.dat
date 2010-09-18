@@ -1,16 +1,16 @@
 TExpressionParser
 v7
 r0
-t306513490.175025
+t306527015.623076
 cCheck dependencies
-cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch.gch ExpressionParser_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o /Users/alex/Desktop/ExpressionParser/ExpressionParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o /Users/alex/Desktop/ExpressionParser/ANEPOperator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o /Users/alex/Desktop/ExpressionParser/ANEPNumber.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o /Users/alex/Desktop/ExpressionParser/ANEPFunction.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o /Users/alex/Desktop/ExpressionParser/ANEPExpression.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o /Users/alex/Desktop/ExpressionParser/ANEPVariable.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/alex/Desktop/ExpressionParser/build/Debug/ExpressionParser normal x86_64
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch.gch ExpressionParser_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/ExpressionParser normal x86_64
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004BF4701900000000000000EE
@@ -152,13 +152,137 @@ N/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/Express
 t1284820690
 s9372
 
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEP.h
+c000000004C941EAA000000000000010C
+t1284775594
+s268
+i"ANEPNumber.h"
+i"ANEPVariable.h"
+i"ANEPOperator.h"
+i"ANEPFunction.h"
+i"ANEPExpression.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.h
+c000000004C94FFA100000000000001DA
+t1284833185
+s474
+i<Foundation/Foundation.h>
+i"ANEP.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m
+c000000004C95037F0000000000001753
+t1284834175
+s5971
+i"ANEPExpression.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.h
+c000000004C94FF9F0000000000000141
+t1284833183
+s321
+i<Foundation/Foundation.h>
+i"ANEPNumber.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m
+c000000004C94DB760000000000000250
+t1284823926
+s592
+i"ANEPFunction.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.h
+c000000004C94FF91000000000000012D
+t1284833169
+s301
+i<Foundation/Foundation.h>
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m
+c000000004C94DBBF0000000000000213
+t1284823999
+s531
+i"ANEPNumber.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.h
+c000000004C94FF9B00000000000001B0
+t1284833179
+s432
+i<Foundation/Foundation.h>
+i"ANEPNumber.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m
+c000000004C94DB9700000000000005A7
+t1284823959
+s1447
+i"ANEPOperator.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.h
+c000000004C94FF97000000000000017B
+t1284833175
+s379
+i<Foundation/Foundation.h>
+i"ANEPNumber.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m
+c000000004C94DB8D0000000000000142
+t1284823949
+s322
+i"ANEPVariable.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m
+c000000004C94FE1F00000000000003C5
+t1284832799
+s965
+i<Foundation/Foundation.h>
+i"ANEP.h"
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser_Prefix.pch
+c000000004C941BE200000000000000AE
+t1284774882
+s174
+i<Foundation/Foundation.h>
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/ExpressionParser
+t1284834215
+s30392
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o
+t1284834215
+s28504
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o
+t1284833195
+s8636
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o
+t1284833195
+s10720
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o
+t1284833194
+s12920
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o
+t1284833195
+s10468
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.LinkFileList
+c000000004C94FFA30000000000000352
+t1284833187
+s850
+
+N/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o
+t1284833194
+s9388
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch.gch
+t1284833194
+s41401104
+
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch.gch
 t1284776395
 s41401104
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies306513488#306513489#0(0"0(0#1#0"8624015008#0"0#
+lSLF07#2@18"Check dependencies306527015#306527015#0(0"0(0#1#0"32088628383449192#0"0#
 
 CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o /Users/alex/Desktop/ExpressionParser/ANEPExpression.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306513365.161507
@@ -173,6 +297,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@61"Compile /Users/alex/Desktop/ExpressionParser/ANEPExpression.m306513365#306513366#0(0"0(0#0#53"/Users/alex/Desktop/ExpressionParser/ANEPExpression.m8615608960#1628"    cd /Users/alex/Desktop/ExpressionParser    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/Desktop/ExpressionParser/build/Debug -I/Users/alex/Desktop/ExpressionParser/build/Debug/include -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch -c /Users/alex/Desktop/ExpressionParser/ANEPExpression.m -o /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o0#
 
+CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306527015.023109
+e306527015.568694
+r1
+xCompileC
+xbuild/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m306527015#306527015#0(0"0(0#0#62"/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m7310028807036878848#1727"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPExpression.o0#
+
 CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o /Users/alex/Desktop/ExpressionParser/ANEPFunction.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306511838.542975
 e306511839.811818
@@ -185,6 +322,19 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/alex/Desktop/ExpressionParser/ANEPFunction.m306511838#306511839#0(0"0(0#0#51"/Users/alex/Desktop/ExpressionParser/ANEPFunction.m8618608096#1624"    cd /Users/alex/Desktop/ExpressionParser    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/Desktop/ExpressionParser/build/Debug -I/Users/alex/Desktop/ExpressionParser/build/Debug/include -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch -c /Users/alex/Desktop/ExpressionParser/ANEPFunction.m -o /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o0#
+
+CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306525994.905479
+e306525995.349979
+r1
+xCompileC
+xbuild/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m306525994#306525995#0(0"0(0#0#60"/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m8616577056#1723"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPFunction.o0#
 
 CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o /Users/alex/Desktop/ExpressionParser/ANEPNumber.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306471010.818808
@@ -199,6 +349,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@57"Compile /Users/alex/Desktop/ExpressionParser/ANEPNumber.m306471010#306471012#0(0"0(0#0#49"/Users/alex/Desktop/ExpressionParser/ANEPNumber.m8628828288#1620"    cd /Users/alex/Desktop/ExpressionParser    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/Desktop/ExpressionParser/build/Debug -I/Users/alex/Desktop/ExpressionParser/build/Debug/include -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch -c /Users/alex/Desktop/ExpressionParser/ANEPNumber.m -o /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o0#
 
+CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306525994.865029
+e306525995.131597
+r1
+xCompileC
+xbuild/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m306525994#306525995#0(0"0(0#0#58"/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m8617117472#1719"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPNumber.o0#
+
 CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o /Users/alex/Desktop/ExpressionParser/ANEPOperator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306512524.580471
 e306512526.121074
@@ -211,6 +374,19 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/alex/Desktop/ExpressionParser/ANEPOperator.m306512524#306512526#0(0"0(0#0#51"/Users/alex/Desktop/ExpressionParser/ANEPOperator.m8613186816#1624"    cd /Users/alex/Desktop/ExpressionParser    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/Desktop/ExpressionParser/build/Debug -I/Users/alex/Desktop/ExpressionParser/build/Debug/include -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch -c /Users/alex/Desktop/ExpressionParser/ANEPOperator.m -o /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o0#
+
+CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306525994.523948
+e306525994.905358
+r1
+xCompileC
+xbuild/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m306525994#306525994#0(0"0(0#0#60"/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m8615494400#1723"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPOperator.o0#
 
 CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o /Users/alex/Desktop/ExpressionParser/ANEPVariable.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306510203.673564
@@ -225,6 +401,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/alex/Desktop/ExpressionParser/ANEPVariable.m306510203#306510204#0(0"0(0#0#51"/Users/alex/Desktop/ExpressionParser/ANEPVariable.m8615900736#1624"    cd /Users/alex/Desktop/ExpressionParser    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/Desktop/ExpressionParser/build/Debug -I/Users/alex/Desktop/ExpressionParser/build/Debug/include -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch -c /Users/alex/Desktop/ExpressionParser/ANEPVariable.m -o /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o0#
 
+CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306525995.350114
+e306525995.566815
+r1
+xCompileC
+xbuild/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m306525995#306525995#0(0"0(0#0#60"/Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m8612841088#1723"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ANEPVariable.o0#
+
 CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o /Users/alex/Desktop/ExpressionParser/ExpressionParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306513488.974588
 e306513490.115548
@@ -238,6 +427,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/alex/Desktop/ExpressionParser/ExpressionParser.m306513488#306513490#0(0"0(0#0#55"/Users/alex/Desktop/ExpressionParser/ExpressionParser.m8614722464#1632"    cd /Users/alex/Desktop/ExpressionParser    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/Desktop/ExpressionParser/build/Debug -I/Users/alex/Desktop/ExpressionParser/build/Debug/include -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch -c /Users/alex/Desktop/ExpressionParser/ExpressionParser.m -o /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o0#
 
+CCompileC build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o /Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306525994.522378
+e306525994.864912
+r1
+xCompileC
+xbuild/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m306525994#306525994#0(0"0(0#0#64"/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m8615831008#1731"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.m -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.o0#
+
 CLd /Users/alex/Desktop/ExpressionParser/build/Debug/ExpressionParser normal x86_64
 s306513490.115648
 e306513490.174969
@@ -247,6 +449,29 @@ x/Users/alex/Desktop/ExpressionParser/build/Debug/ExpressionParser
 xnormal
 xx86_64
 lSLF07#2@70"Link /Users/alex/Desktop/ExpressionParser/build/Debug/ExpressionParser306513490#306513490#0(0"0(0#0#0"8612521824#546"    cd /Users/alex/Desktop/ExpressionParser    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/ExpressionParser/build/Debug -F/Users/alex/Desktop/ExpressionParser/build/Debug -filelist /Users/alex/Desktop/ExpressionParser/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/alex/Desktop/ExpressionParser/build/Debug/ExpressionParser0#
+
+CLd /Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/ExpressionParser normal x86_64
+s306527015.568810
+e306527015.623013
+r1
+xLd
+x/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/ExpressionParser
+xnormal
+xx86_64
+lSLF07#2@79"Link /Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/ExpressionParser306527015#306527015#0(0"0(0#0#0"28992425118793828#591"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -filelist /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/Objects-normal/x86_64/ExpressionParser.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/ExpressionParser0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch.gch ExpressionParser_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306525987.698925
+e306525994.522197
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch.gch
+xExpressionParser_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile ExpressionParser_Prefix.pch306525987#306525994#0(0"0(0#0#73"/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser_Prefix.pch8616675744#1597"    cd /Users/alex/xCode/git/ANExpressionParser/ANEP    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-generated-files.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-own-target-headers.hmap -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/ExpressionParser-project-headers.hmap -F/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/Debug/include -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANExpressionParser/ANEP/build/ExpressionParser.build/Debug/ExpressionParser.build/DerivedSources -c /Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-betkldccrprsybchhydmfmhkwsua/ExpressionParser_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ExpressionParser_Prefix-dajymvegeplmochghwucfsozgntw/ExpressionParser_Prefix.pch.gch ExpressionParser_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s306469191.213389

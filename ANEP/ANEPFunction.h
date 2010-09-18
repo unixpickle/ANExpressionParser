@@ -3,10 +3,10 @@
 //  ExpressionParser
 //
 //  Created by Alex Nichol on 9/17/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alex Nichol. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 #import "ANEPNumber.h"
 
 
