@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -308,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -327,14 +327,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FACEFA7112453B380096B548</string>
+										<string>FA255DD11247F65E00091C5C</string>
 										<key>history</key>
 										<array>
-											<string>FA32E13E1245067000860E16</string>
 											<string>FAD8B2FB124513B000B3BAD4</string>
 											<string>FAD8B2FD124513B000B3BAD4</string>
 											<string>FAD8B2FF124513B000B3BAD4</string>
-											<string>FAFA5D0812453B00001CE479</string>
 											<string>FAFA5D0912453B00001CE479</string>
 											<string>FAFA5D0A12453B00001CE479</string>
 											<string>FAFA5D0B12453B00001CE479</string>
@@ -342,7 +340,8 @@
 											<string>FAFA5D0D12453B00001CE479</string>
 											<string>FAFA5D0E12453B00001CE479</string>
 											<string>FACEFA6F12453B380096B548</string>
-											<string>FACEFA7012453B380096B548</string>
+											<string>FA255DCF1247F65E00091C5C</string>
+											<string>FA255DD01247F65E00091C5C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +353,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 222}}</string>
+								<string>{{0, 0}, {580, 211}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1057 343 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>222pt</string>
+							<string>211pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +373,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 227}, {580, 236}}</string>
+								<string>{{0, 216}, {580, 247}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1057 343 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>236pt</string>
+							<string>247pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FACEFA7212453B380096B548</string>
+				<string>FA255DD21247F65E00091C5C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FACEFA7312453B380096B548</string>
+				<string>FA255DD31247F65E00091C5C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -540,10 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FACEFA7412453B380096B548</string>
-		<string>FACEFA7512453B380096B548</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA41370E1244599F00946ECB</string>
 		<string>/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.xcodeproj</string>
 	</array>
@@ -625,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA41370E1244599F00946ECB</string>
-				<string>FACEFA6712453B2C0096B548</string>
+				<string>FA255DD41247F65E00091C5C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

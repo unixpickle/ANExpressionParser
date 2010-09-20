@@ -11,6 +11,13 @@
 
 @implementation ANEPNumber
 
+- (id)makeNegative:(BOOL)really {
+	if (really) {
+		dValue *= -1;
+	}
+	return self;
+}
+
 - (id)description {
 	return [NSMutableString stringWithFormat:@"%f", (float)dValue];
 }

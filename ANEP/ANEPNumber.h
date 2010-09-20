@@ -12,6 +12,7 @@
 @interface ANEPNumber : NSObject {
 	double dValue;
 }
+- (id)makeNegative:(BOOL)really;
 - (double)doubleValue;
 + (ANEPNumber *)numberWithDouble:(double)d;
 @end

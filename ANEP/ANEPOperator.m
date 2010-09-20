@@ -30,6 +30,9 @@
 		case '*':
 			return [[[ANEPOperator alloc] initWithCharacter:c] autorelease];
 			break;
+		case '^':
+			return [[[ANEPOperator alloc] initWithCharacter:c] autorelease];
+			break;
 		default:
 			return nil;
 			break;
@@ -52,6 +55,9 @@
 			break;
 		case '*':
 			return [ANEPNumber numberWithDouble:([num1 doubleValue] * [num doubleValue])];
+			break;
+		case '^':
+			return [ANEPNumber numberWithDouble:(pow([num1 doubleValue], [num doubleValue]))];
 			break;
 		default:
 			return nil;

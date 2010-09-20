@@ -10,11 +10,11 @@
 		8DD76F9A0486AA7600D96B5E /* ExpressionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* ExpressionParser.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* ExpressionParser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* ExpressionParser.1 */; };
-		FA4136EB1244537900946ECB /* ANEPOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4136EA1244537900946ECB /* ANEPOperator.m */; };
-		FA4136F01244538700946ECB /* ANEPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4136EF1244538700946ECB /* ANEPNumber.m */; };
-		FA4136F4124453AB00946ECB /* ANEPFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4136F3124453AB00946ECB /* ANEPFunction.m */; };
-		FA4136F7124453BA00946ECB /* ANEPExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4136F6124453BA00946ECB /* ANEPExpression.m */; };
-		FA4136FB124455AC00946ECB /* ANEPVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4136FA124455AC00946ECB /* ANEPVariable.m */; };
+		FA255DC81247F65400091C5C /* ANEPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DBF1247F65400091C5C /* ANEPNumber.m */; };
+		FA255DC91247F65400091C5C /* ANEPVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC11247F65400091C5C /* ANEPVariable.m */; };
+		FA255DCA1247F65400091C5C /* ANEPOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC31247F65400091C5C /* ANEPOperator.m */; };
+		FA255DCB1247F65400091C5C /* ANEPFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC51247F65400091C5C /* ANEPFunction.m */; };
+		FA255DCC1247F65400091C5C /* ANEPExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC71247F65400091C5C /* ANEPExpression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,17 +36,17 @@
 		32A70AAB03705E1F00C91783 /* ExpressionParser_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionParser_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* ExpressionParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExpressionParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* ExpressionParser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ExpressionParser.1; sourceTree = "<group>"; };
-		FA4136E91244537900946ECB /* ANEPOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPOperator.h; sourceTree = "<group>"; };
-		FA4136EA1244537900946ECB /* ANEPOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPOperator.m; sourceTree = "<group>"; };
-		FA4136EE1244538700946ECB /* ANEPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPNumber.h; sourceTree = "<group>"; };
-		FA4136EF1244538700946ECB /* ANEPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPNumber.m; sourceTree = "<group>"; };
-		FA4136F2124453AB00946ECB /* ANEPFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPFunction.h; sourceTree = "<group>"; };
-		FA4136F3124453AB00946ECB /* ANEPFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPFunction.m; sourceTree = "<group>"; };
-		FA4136F5124453BA00946ECB /* ANEPExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPExpression.h; sourceTree = "<group>"; };
-		FA4136F6124453BA00946ECB /* ANEPExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPExpression.m; sourceTree = "<group>"; };
-		FA4136F9124455AC00946ECB /* ANEPVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPVariable.h; sourceTree = "<group>"; };
-		FA4136FA124455AC00946ECB /* ANEPVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPVariable.m; sourceTree = "<group>"; };
-		FA4136FC1244560600946ECB /* ANEP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEP.h; sourceTree = "<group>"; };
+		FA255DBD1247F65400091C5C /* ANEP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEP.h; sourceTree = "<group>"; };
+		FA255DBE1247F65400091C5C /* ANEPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPNumber.h; sourceTree = "<group>"; };
+		FA255DBF1247F65400091C5C /* ANEPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPNumber.m; sourceTree = "<group>"; };
+		FA255DC01247F65400091C5C /* ANEPVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPVariable.h; sourceTree = "<group>"; };
+		FA255DC11247F65400091C5C /* ANEPVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPVariable.m; sourceTree = "<group>"; };
+		FA255DC21247F65400091C5C /* ANEPOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPOperator.h; sourceTree = "<group>"; };
+		FA255DC31247F65400091C5C /* ANEPOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPOperator.m; sourceTree = "<group>"; };
+		FA255DC41247F65400091C5C /* ANEPFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPFunction.h; sourceTree = "<group>"; };
+		FA255DC51247F65400091C5C /* ANEPFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPFunction.m; sourceTree = "<group>"; };
+		FA255DC61247F65400091C5C /* ANEPExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPExpression.h; sourceTree = "<group>"; };
+		FA255DC71247F65400091C5C /* ANEPExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPExpression.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,17 +109,17 @@
 		FA4136F11244539400946ECB /* ANEP */ = {
 			isa = PBXGroup;
 			children = (
-				FA4136FC1244560600946ECB /* ANEP.h */,
-				FA4136EE1244538700946ECB /* ANEPNumber.h */,
-				FA4136EF1244538700946ECB /* ANEPNumber.m */,
-				FA4136F9124455AC00946ECB /* ANEPVariable.h */,
-				FA4136FA124455AC00946ECB /* ANEPVariable.m */,
-				FA4136E91244537900946ECB /* ANEPOperator.h */,
-				FA4136EA1244537900946ECB /* ANEPOperator.m */,
-				FA4136F2124453AB00946ECB /* ANEPFunction.h */,
-				FA4136F3124453AB00946ECB /* ANEPFunction.m */,
-				FA4136F5124453BA00946ECB /* ANEPExpression.h */,
-				FA4136F6124453BA00946ECB /* ANEPExpression.m */,
+				FA255DBD1247F65400091C5C /* ANEP.h */,
+				FA255DBE1247F65400091C5C /* ANEPNumber.h */,
+				FA255DBF1247F65400091C5C /* ANEPNumber.m */,
+				FA255DC01247F65400091C5C /* ANEPVariable.h */,
+				FA255DC11247F65400091C5C /* ANEPVariable.m */,
+				FA255DC21247F65400091C5C /* ANEPOperator.h */,
+				FA255DC31247F65400091C5C /* ANEPOperator.m */,
+				FA255DC41247F65400091C5C /* ANEPFunction.h */,
+				FA255DC51247F65400091C5C /* ANEPFunction.m */,
+				FA255DC61247F65400091C5C /* ANEPExpression.h */,
+				FA255DC71247F65400091C5C /* ANEPExpression.m */,
 			);
 			name = ANEP;
 			sourceTree = "<group>";
@@ -168,11 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* ExpressionParser.m in Sources */,
-				FA4136EB1244537900946ECB /* ANEPOperator.m in Sources */,
-				FA4136F01244538700946ECB /* ANEPNumber.m in Sources */,
-				FA4136F4124453AB00946ECB /* ANEPFunction.m in Sources */,
-				FA4136F7124453BA00946ECB /* ANEPExpression.m in Sources */,
-				FA4136FB124455AC00946ECB /* ANEPVariable.m in Sources */,
+				FA255DC81247F65400091C5C /* ANEPNumber.m in Sources */,
+				FA255DC91247F65400091C5C /* ANEPVariable.m in Sources */,
+				FA255DCA1247F65400091C5C /* ANEPOperator.m in Sources */,
+				FA255DCB1247F65400091C5C /* ANEPFunction.m in Sources */,
+				FA255DCC1247F65400091C5C /* ANEPExpression.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

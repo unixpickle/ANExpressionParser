@@ -17,7 +17,7 @@
 			ANEPNumber * number1 = [subcomponents objectAtIndex:i];
 			ANEPOperator * operator = [subcomponents objectAtIndex:i+1];
 			ANEPNumber * number2 = [subcomponents objectAtIndex:i+2];
-			if ([number2 respondsToSelector:@selector(doubleValue)]) {
+			if ([number2 respondsToSelector:@selector(doubleValue)] && [number1 respondsToSelector:@selector(doubleValue)]) {
 				if ([operator respondsToSelector:@selector(applyNumber:toNumber:)]) {
 					if ([operator character] == op || [operator character] == alt) {
 						ANEPNumber * num = [operator applyNumber:number2 toNumber:number1];
@@ -37,6 +37,7 @@
 	if (!subcomponents || [subcomponents count] <= 0) {
 		return [ANEPNumber numberWithDouble:0];
 	}
+	[self runOperations:'^' alt:'^'];
 	[self runOperations:'*' alt:'/'];
 	[self runOperations:'+' alt:'-'];
 	
@@ -85,6 +86,7 @@
 }
 - (id)initWithExpression:(NSString *)str variables:(NSArray *)vars {
 	if (self = [super init]) {
+		BOOL negative = NO;
 		subcomponents = [[NSMutableArray alloc] init];
 		// loop through keywords
 		BOOL lastWasNumber = NO;
@@ -100,8 +102,10 @@
 						// assume multiplication
 						[subcomponents addObject:[ANEPOperator operatorWithCharacter:'*']];
 					}
-					if (subexpr) [subcomponents addObject:[subexpr numberValue]];
+					if (subexpr) [subcomponents addObject:[[subexpr numberValue] makeNegative:negative]];
+					negative = NO;
 					if (subexpr) lastWasNumber = YES;
+					
 				} else if (c == ')') {
 					NSLog(@"Invalid expression.");
 					return nil;
@@ -111,10 +115,19 @@
 						// assume multiplication
 						[subcomponents addObject:[ANEPOperator operatorWithCharacter:'*']];
 					}
-					if (_number) [subcomponents addObject:_number];
+					if (_number) [subcomponents addObject:[_number makeNegative:negative]];
+					negative = NO;
 					lastWasNumber = YES;
 				} else if (operator != nil) {
-					[subcomponents addObject:operator];
+					negative = NO;
+					if (c == '-') {
+						if (!lastWasNumber) {
+							negative = YES;
+						}
+					}
+					if (!negative) {
+						[subcomponents addObject:operator];
+					}
 					lastWasNumber = NO;
 				} else if (isalnum(c)) {
 					// either a variable or a function mame
@@ -137,15 +150,17 @@
 								// assume multiplication
 								[subcomponents addObject:[ANEPOperator operatorWithCharacter:'*']];
 							}
-							[subcomponents addObject:[variable number]];
+							[subcomponents addObject:[[variable number] makeNegative:(!lastWasNumber && negative)]];
+							negative = NO;
 							lastWasNumber = YES;
 						} else return nil;
 					} else {
 						i ++;
 						ANEPExpression * expr = [ANEPExpression readExpression:str fromIndex:&i variables:vars];
 						ANEPNumber * numbr = [ANEPFunction applyFunction:functionName toNumber:[expr numberValue]];
-						if (numbr) [subcomponents addObject:numbr];
+						if (numbr) [subcomponents addObject:[numbr makeNegative:negative]];
 						else return nil;
+						negative = NO;
 						lastWasNumber = YES;
 					}
 				}
