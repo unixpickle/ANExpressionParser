@@ -6,6 +6,21 @@
 	objectVersion = 45;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FA44A76012A5C8F100FDAB30 /* Compile All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FA44A77F12A5C91100FDAB30 /* Build configuration list for PBXAggregateTarget "Compile All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				FA44A76612A5C8F800FDAB30 /* PBXTargetDependency */,
+				FA44A76412A5C8F800FDAB30 /* PBXTargetDependency */,
+			);
+			name = "Compile All";
+			productName = "Compile All";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		8DD76F9A0486AA7600D96B5E /* ExpressionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* ExpressionParser.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
@@ -15,7 +30,39 @@
 		FA255DCA1247F65400091C5C /* ANEPOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC31247F65400091C5C /* ANEPOperator.m */; };
 		FA255DCB1247F65400091C5C /* ANEPFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC51247F65400091C5C /* ANEPFunction.m */; };
 		FA255DCC1247F65400091C5C /* ANEPExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC71247F65400091C5C /* ANEPExpression.m */; };
+		FA44A6A912A5C52300FDAB30 /* NSString+ANEP.m in Sources */ = {isa = PBXBuildFile; fileRef = FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */; };
+		FA44A6D112A5C8C500FDAB30 /* ANEP.h in Headers */ = {isa = PBXBuildFile; fileRef = FA255DBD1247F65400091C5C /* ANEP.h */; };
+		FA44A6D212A5C8C500FDAB30 /* ANEPNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = FA255DBE1247F65400091C5C /* ANEPNumber.h */; };
+		FA44A6D312A5C8C500FDAB30 /* ANEPVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = FA255DC01247F65400091C5C /* ANEPVariable.h */; };
+		FA44A6D412A5C8C500FDAB30 /* ANEPOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = FA255DC21247F65400091C5C /* ANEPOperator.h */; };
+		FA44A6D512A5C8C500FDAB30 /* ANEPFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA255DC41247F65400091C5C /* ANEPFunction.h */; };
+		FA44A6D612A5C8C500FDAB30 /* ANEPExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = FA255DC61247F65400091C5C /* ANEPExpression.h */; };
+		FA44A6D712A5C8C500FDAB30 /* NSString+ANEP.h in Headers */ = {isa = PBXBuildFile; fileRef = FA44A6A712A5C52300FDAB30 /* NSString+ANEP.h */; };
+		FA44A6D812A5C8CE00FDAB30 /* ANEPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DBF1247F65400091C5C /* ANEPNumber.m */; };
+		FA44A6D912A5C8CE00FDAB30 /* ANEPVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC11247F65400091C5C /* ANEPVariable.m */; };
+		FA44A6DA12A5C8CE00FDAB30 /* ANEPOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC31247F65400091C5C /* ANEPOperator.m */; };
+		FA44A6DB12A5C8CE00FDAB30 /* ANEPFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC51247F65400091C5C /* ANEPFunction.m */; };
+		FA44A6DC12A5C8CE00FDAB30 /* ANEPExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FA255DC71247F65400091C5C /* ANEPExpression.m */; };
+		FA44A6DD12A5C8CE00FDAB30 /* NSString+ANEP.m in Sources */ = {isa = PBXBuildFile; fileRef = FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */; };
+		FA44A6DE12A5C8D700FDAB30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA44A76312A5C8F800FDAB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA44A6CD12A5C8B100FDAB30 /* ANEP */;
+			remoteInfo = ANEP;
+		};
+		FA44A76512A5C8F800FDAB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F960486AA7600D96B5E /* ExpressionParser */;
+			remoteInfo = ExpressionParser;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
@@ -47,6 +94,9 @@
 		FA255DC51247F65400091C5C /* ANEPFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPFunction.m; sourceTree = "<group>"; };
 		FA255DC61247F65400091C5C /* ANEPExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEPExpression.h; sourceTree = "<group>"; };
 		FA255DC71247F65400091C5C /* ANEPExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEPExpression.m; sourceTree = "<group>"; };
+		FA44A6A712A5C52300FDAB30 /* NSString+ANEP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ANEP.h"; sourceTree = "<group>"; };
+		FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ANEP.m"; sourceTree = "<group>"; };
+		FA44A6CE12A5C8B100FDAB30 /* libANEP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANEP.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +105,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA44A6CC12A5C8B100FDAB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA44A6DE12A5C8D700FDAB30 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD76FA10486AA7600D96B5E /* ExpressionParser */,
+				FA44A6CE12A5C8B100FDAB30 /* libANEP.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,11 +179,30 @@
 				FA255DC51247F65400091C5C /* ANEPFunction.m */,
 				FA255DC61247F65400091C5C /* ANEPExpression.h */,
 				FA255DC71247F65400091C5C /* ANEPExpression.m */,
+				FA44A6A712A5C52300FDAB30 /* NSString+ANEP.h */,
+				FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */,
 			);
 			name = ANEP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA44A6CA12A5C8B100FDAB30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA44A6D112A5C8C500FDAB30 /* ANEP.h in Headers */,
+				FA44A6D212A5C8C500FDAB30 /* ANEPNumber.h in Headers */,
+				FA44A6D312A5C8C500FDAB30 /* ANEPVariable.h in Headers */,
+				FA44A6D412A5C8C500FDAB30 /* ANEPOperator.h in Headers */,
+				FA44A6D512A5C8C500FDAB30 /* ANEPFunction.h in Headers */,
+				FA44A6D612A5C8C500FDAB30 /* ANEPExpression.h in Headers */,
+				FA44A6D712A5C8C500FDAB30 /* NSString+ANEP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8DD76F960486AA7600D96B5E /* ExpressionParser */ = {
@@ -145,6 +223,23 @@
 			productReference = 8DD76FA10486AA7600D96B5E /* ExpressionParser */;
 			productType = "com.apple.product-type.tool";
 		};
+		FA44A6CD12A5C8B100FDAB30 /* ANEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA44A77E12A5C91100FDAB30 /* Build configuration list for PBXNativeTarget "ANEP" */;
+			buildPhases = (
+				FA44A6CA12A5C8B100FDAB30 /* Headers */,
+				FA44A6CB12A5C8B100FDAB30 /* Sources */,
+				FA44A6CC12A5C8B100FDAB30 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANEP;
+			productName = ANEP;
+			productReference = FA44A6CE12A5C8B100FDAB30 /* libANEP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,12 +247,21 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "ExpressionParser" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* ExpressionParser */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8DD76F960486AA7600D96B5E /* ExpressionParser */,
+				FA44A6CD12A5C8B100FDAB30 /* ANEP */,
+				FA44A76012A5C8F100FDAB30 /* Compile All */,
 			);
 		};
 /* End PBXProject section */
@@ -173,10 +277,37 @@
 				FA255DCA1247F65400091C5C /* ANEPOperator.m in Sources */,
 				FA255DCB1247F65400091C5C /* ANEPFunction.m in Sources */,
 				FA255DCC1247F65400091C5C /* ANEPExpression.m in Sources */,
+				FA44A6A912A5C52300FDAB30 /* NSString+ANEP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA44A6CB12A5C8B100FDAB30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA44A6D812A5C8CE00FDAB30 /* ANEPNumber.m in Sources */,
+				FA44A6D912A5C8CE00FDAB30 /* ANEPVariable.m in Sources */,
+				FA44A6DA12A5C8CE00FDAB30 /* ANEPOperator.m in Sources */,
+				FA44A6DB12A5C8CE00FDAB30 /* ANEPFunction.m in Sources */,
+				FA44A6DC12A5C8CE00FDAB30 /* ANEPExpression.m in Sources */,
+				FA44A6DD12A5C8CE00FDAB30 /* NSString+ANEP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA44A76412A5C8F800FDAB30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA44A6CD12A5C8B100FDAB30 /* ANEP */;
+			targetProxy = FA44A76312A5C8F800FDAB30 /* PBXContainerItemProxy */;
+		};
+		FA44A76612A5C8F800FDAB30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD76F960486AA7600D96B5E /* ExpressionParser */;
+			targetProxy = FA44A76512A5C8F800FDAB30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB927508733DD40010E9CD /* Debug */ = {
@@ -234,6 +365,74 @@
 			};
 			name = Release;
 		};
+		FA44A6CF12A5C8B200FDAB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ANEP;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		FA44A6D012A5C8B200FDAB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ANEP;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		FA44A76112A5C8F100FDAB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Compile All";
+			};
+			name = Debug;
+		};
+		FA44A76212A5C8F100FDAB30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Compile All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -251,6 +450,24 @@
 			buildConfigurations = (
 				1DEB927908733DD40010E9CD /* Debug */,
 				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA44A77E12A5C91100FDAB30 /* Build configuration list for PBXNativeTarget "ANEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA44A6CF12A5C8B200FDAB30 /* Debug */,
+				FA44A6D012A5C8B200FDAB30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA44A77F12A5C91100FDAB30 /* Build configuration list for PBXAggregateTarget "Compile All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA44A76112A5C8F100FDAB30 /* Debug */,
+				FA44A76212A5C8F100FDAB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

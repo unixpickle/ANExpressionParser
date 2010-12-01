@@ -3,7 +3,7 @@
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = FA4136E21244536200946ECB /* ExpressionParser */;
-		activeTarget = 8DD76F960486AA7600D96B5E /* ExpressionParser */;
+		activeTarget = FA44A76012A5C8F100FDAB30 /* Compile All */;
 		addToTargets = (
 			8DD76F960486AA7600D96B5E /* ExpressionParser */,
 		);
@@ -60,23 +60,49 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 306705984;
-			PBXWorkspaceStateSaveDate = 306705984;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312853326;
+			PBXWorkspaceStateSaveDate = 312853326;
 		};
 		perUserProjectItems = {
 			FA255DCF1247F65E00091C5C /* PBXTextBookmark */ = FA255DCF1247F65E00091C5C /* PBXTextBookmark */;
-			FA255DD01247F65E00091C5C /* PBXTextBookmark */ = FA255DD01247F65E00091C5C /* PBXTextBookmark */;
-			FA255DD11247F65E00091C5C /* PBXTextBookmark */ = FA255DD11247F65E00091C5C /* PBXTextBookmark */;
-			FACEFA6F12453B380096B548 /* PBXTextBookmark */ = FACEFA6F12453B380096B548 /* PBXTextBookmark */;
-			FAD8B2FB124513B000B3BAD4 /* PBXTextBookmark */ = FAD8B2FB124513B000B3BAD4 /* PBXTextBookmark */;
-			FAD8B2FD124513B000B3BAD4 /* PBXTextBookmark */ = FAD8B2FD124513B000B3BAD4 /* PBXTextBookmark */;
-			FAD8B2FF124513B000B3BAD4 /* PBXTextBookmark */ = FAD8B2FF124513B000B3BAD4 /* PBXTextBookmark */;
-			FAFA5D0912453B00001CE479 /* PBXTextBookmark */ = FAFA5D0912453B00001CE479 /* PBXTextBookmark */;
-			FAFA5D0A12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0A12453B00001CE479 /* PBXTextBookmark */;
+			FA44A76912A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76912A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76A12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76A12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76B12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76B12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76C12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76C12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76D12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76D12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76E12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76E12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76F12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76F12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A77012A5C91100FDAB30 /* PBXTextBookmark */ = FA44A77012A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A85712A5CAD000FDAB30 /* PBXTextBookmark */ = FA44A85712A5CAD000FDAB30 /* PBXTextBookmark */;
+			FA5728EB12A5BBA6005E32CD /* PBXTextBookmark */ = FA5728EB12A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728EC12A5BBA6005E32CD /* PBXTextBookmark */ = FA5728EC12A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */ = FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728F112A5BBA6005E32CD /* PBXTextBookmark */ = FA5728F112A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728F212A5BBA6005E32CD /* PBXTextBookmark */ = FA5728F212A5BBA6005E32CD /* PBXTextBookmark */;
 			FAFA5D0B12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0B12453B00001CE479 /* PBXTextBookmark */;
 			FAFA5D0C12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0C12453B00001CE479 /* PBXTextBookmark */;
-			FAFA5D0D12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0D12453B00001CE479 /* PBXTextBookmark */;
-			FAFA5D0E12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0E12453B00001CE479 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FA4136EC1244537900946ECB /* Source Control */;
 		userBuildSettings = {
@@ -84,9 +110,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* ExpressionParser.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1110, 364}}";
-			sepNavSelRange = "{873, 0}";
-			sepNavVisRange = "{277, 652}";
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 756}}";
+			sepNavSelRange = "{1160, 0}";
+			sepNavVisRange = "{0, 952}";
 		};
 	};
 	32A70AAB03705E1F00C91783 /* ExpressionParser_Prefix.pch */ = {
@@ -102,6 +128,20 @@
 			FA4136E21244536200946ECB /* ExpressionParser */,
 		);
 	};
+	FA255DBD1247F65400091C5C /* ANEP.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 254}}";
+			sepNavSelRange = "{294, 0}";
+			sepNavVisRange = "{0, 294}";
+		};
+	};
+	FA255DC71247F65400091C5C /* ANEPExpression.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {762, 2996}}";
+			sepNavSelRange = "{6906, 0}";
+			sepNavVisRange = "{6280, 626}";
+		};
+	};
 	FA255DCF1247F65E00091C5C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 32A70AAB03705E1F00C91783 /* ExpressionParser_Prefix.pch */;
@@ -111,26 +151,6 @@
 		rType = 0;
 		vrLen = 174;
 		vrLoc = 0;
-	};
-	FA255DD01247F65E00091C5C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* ExpressionParser.m */;
-		name = "ExpressionParser.m: 20";
-		rLen = 0;
-		rLoc = 873;
-		rType = 0;
-		vrLen = 710;
-		vrLoc = 219;
-	};
-	FA255DD11247F65E00091C5C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* ExpressionParser.m */;
-		name = "ExpressionParser.m: 20";
-		rLen = 0;
-		rLoc = 873;
-		rType = 0;
-		vrLen = 652;
-		vrLoc = 277;
 	};
 	FA4136E21244536200946ECB /* ExpressionParser */ = {
 		isa = PBXExecutable;
@@ -171,11 +191,6 @@
 		name = ANEPOperator.h;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 280}}";
-			sepNavSelRange = "{172, 0}";
-			sepNavVisRange = "{43, 384}";
-		};
 	};
 	FA4136EA1244537900946ECB /* ANEPOperator.m */ = {
 		isa = PBXFileReference;
@@ -184,11 +199,6 @@
 		name = ANEPOperator.m;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPOperator.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 994}}";
-			sepNavSelRange = "{115, 0}";
-			sepNavVisRange = "{0, 274}";
-		};
 	};
 	FA4136EC1244537900946ECB /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -211,11 +221,6 @@
 		name = ANEPNumber.h;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 252}}";
-			sepNavSelRange = "{170, 0}";
-			sepNavVisRange = "{3, 293}";
-		};
 	};
 	FA4136EF1244538700946ECB /* ANEPNumber.m */ = {
 		isa = PBXFileReference;
@@ -224,11 +229,6 @@
 		name = ANEPNumber.m;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPNumber.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 462}}";
-			sepNavSelRange = "{48, 0}";
-			sepNavVisRange = "{0, 278}";
-		};
 	};
 	FA4136F2124453AB00946ECB /* ANEPFunction.h */ = {
 		isa = PBXFileReference;
@@ -237,11 +237,6 @@
 		name = ANEPFunction.h;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 252}}";
-			sepNavSelRange = "{172, 0}";
-			sepNavVisRange = "{0, 241}";
-		};
 	};
 	FA4136F3124453AB00946ECB /* ANEPFunction.m */ = {
 		isa = PBXFileReference;
@@ -251,9 +246,9 @@
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 364}}";
-			sepNavSelRange = "{115, 0}";
-			sepNavVisRange = "{46, 459}";
+			sepNavIntBoundsRect = "{{0, 0}, {1050, 532}}";
+			sepNavSelRange = "{1112, 0}";
+			sepNavVisRange = "{275, 905}";
 		};
 	};
 	FA4136F5124453BA00946ECB /* ANEPExpression.h */ = {
@@ -264,10 +259,9 @@
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.h;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 280}}";
-			sepNavSelRange = "{174, 0}";
-			sepNavVisRange = "{0, 292}";
-			sepNavWindowFrame = "{{15, 452}, {653, 601}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 350}}";
+			sepNavSelRange = "{544, 0}";
+			sepNavVisRange = "{87, 463}";
 		};
 	};
 	FA4136F6124453BA00946ECB /* ANEPExpression.m */ = {
@@ -278,10 +272,9 @@
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {702, 2646}}";
-			sepNavSelRange = "{5971, 0}";
-			sepNavVisRange = "{5654, 317}";
-			sepNavWindowFrame = "{{15, 452}, {653, 601}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 3038}}";
+			sepNavSelRange = "{6248, 0}";
+			sepNavVisRange = "{5741, 826}";
 		};
 	};
 	FA4136F9124455AC00946ECB /* ANEPVariable.h */ = {
@@ -291,11 +284,6 @@
 		name = ANEPVariable.h;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 280}}";
-			sepNavSelRange = "{172, 0}";
-			sepNavVisRange = "{43, 331}";
-		};
 	};
 	FA4136FA124455AC00946ECB /* ANEPVariable.m */ = {
 		isa = PBXFileReference;
@@ -304,72 +292,178 @@
 		name = ANEPVariable.m;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPVariable.m;
 		sourceTree = "<absolute>";
+	};
+	FA44A6A712A5C52300FDAB30 /* NSString+ANEP.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 322}}";
-			sepNavSelRange = "{115, 0}";
-			sepNavVisRange = "{85, 231}";
-			sepNavWindowFrame = "{{38, 431}, {653, 601}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 266}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 425}";
 		};
 	};
-	FACEFA6F12453B380096B548 /* PBXTextBookmark */ = {
+	FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 770}}";
+			sepNavSelRange = "{480, 0}";
+			sepNavVisRange = "{211, 395}";
+		};
+	};
+	FA44A6CD12A5C8B100FDAB30 /* ANEP */ = {
+		activeExec = 0;
+	};
+	FA44A76012A5C8F100FDAB30 /* Compile All */ = {
+		activeExec = 0;
+	};
+	FA44A76912A5C91100FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA5728EE12A5BBA6005E32CD /* math.h */;
+		name = "math.h: 66";
+		rLen = 10;
+		rLoc = 2730;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 2367;
+	};
+	FA44A76A12A5C91100FDAB30 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA4136F6124453BA00946ECB /* ANEPExpression.m */;
-		name = "ANEPExpression.m: 182";
+		name = "ANEPExpression.m: 173";
 		rLen = 0;
-		rLoc = 5971;
+		rLoc = 6248;
 		rType = 0;
-		vrLen = 317;
-		vrLoc = 5654;
+		vrLen = 826;
+		vrLoc = 5741;
 	};
-	FAD8B2FB124513B000B3BAD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA4136FA124455AC00946ECB /* ANEPVariable.m */;
-		name = "ANEPVariable.m: 6";
-		rLen = 0;
-		rLoc = 115;
-		rType = 0;
-		vrLen = 231;
-		vrLoc = 85;
-	};
-	FAD8B2FD124513B000B3BAD4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA4136EA1244537900946ECB /* ANEPOperator.m */;
-		name = "ANEPOperator.m: 6";
-		rLen = 0;
-		rLoc = 115;
-		rType = 0;
-		vrLen = 274;
-		vrLoc = 0;
-	};
-	FAD8B2FF124513B000B3BAD4 /* PBXTextBookmark */ = {
+	FA44A76B12A5C91100FDAB30 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA4136F3124453AB00946ECB /* ANEPFunction.m */;
-		name = "ANEPFunction.m: 6";
+		name = "ANEPFunction.m: 31";
 		rLen = 0;
-		rLoc = 115;
+		rLoc = 1112;
 		rType = 0;
-		vrLen = 459;
-		vrLoc = 46;
+		vrLen = 905;
+		vrLoc = 275;
 	};
-	FAFA5D0912453B00001CE479 /* PBXTextBookmark */ = {
+	FA44A76C12A5C91100FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4136F5124453BA00946ECB /* ANEPExpression.h */;
+		name = "ANEPExpression.h: 23";
+		rLen = 0;
+		rLoc = 544;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 87;
+	};
+	FA44A76D12A5C91100FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA44A6A712A5C52300FDAB30 /* NSString+ANEP.h */;
+		name = "NSString+ANEP.h: 14";
+		rLen = 0;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 0;
+	};
+	FA44A76E12A5C91100FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* ExpressionParser.m */;
+		name = "ExpressionParser.m: 27";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 0;
+	};
+	FA44A76F12A5C91100FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA255DBD1247F65400091C5C /* ANEP.h */;
+		name = "ANEP.h: 15";
+		rLen = 0;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 294;
+		vrLoc = 0;
+	};
+	FA44A77012A5C91100FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */;
+		name = "NSString+ANEP.m: 22";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 211;
+	};
+	FA44A85712A5CAD000FDAB30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */;
+		name = "NSString+ANEP.m: 22";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 211;
+	};
+	FA5728EB12A5BBA6005E32CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4136FA124455AC00946ECB /* ANEPVariable.m */;
+		name = "ANEPVariable.m: 16";
+		rLen = 15;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 124;
+		vrLoc = 198;
+	};
+	FA5728EC12A5BBA6005E32CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4136EA1244537900946ECB /* ANEPOperator.m */;
+		name = "ANEPOperator.m: 11";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 343;
+		vrLoc = 0;
+	};
+	FA5728EE12A5BBA6005E32CD /* math.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {654, 9100}}";
+			sepNavSelRange = "{2730, 10}";
+			sepNavVisRange = "{2367, 655}";
+		};
+	};
+	FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4136F2124453AB00946ECB /* ANEPFunction.h */;
+		name = "ANEPFunction.h: 9";
+		rLen = 0;
+		rLoc = 172;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 0;
+	};
+	FA5728F112A5BBA6005E32CD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA4136EE1244538700946ECB /* ANEPNumber.h */;
-		name = "ANEPNumber.h: 9";
+		name = "ANEPNumber.h: 17";
 		rLen = 0;
-		rLoc = 170;
+		rLoc = 305;
 		rType = 0;
-		vrLen = 293;
+		vrLen = 352;
 		vrLoc = 3;
 	};
-	FAFA5D0A12453B00001CE479 /* PBXTextBookmark */ = {
+	FA5728F212A5BBA6005E32CD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA4136EF1244538700946ECB /* ANEPNumber.m */;
-		name = "ANEPNumber.m: 5";
+		name = "ANEPNumber.m: 22";
 		rLen = 0;
-		rLoc = 48;
+		rLoc = 322;
 		rType = 0;
-		vrLen = 278;
-		vrLoc = 0;
+		vrLen = 290;
+		vrLoc = 242;
 	};
 	FAFA5D0B12453B00001CE479 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -390,25 +484,5 @@
 		rType = 0;
 		vrLen = 384;
 		vrLoc = 43;
-	};
-	FAFA5D0D12453B00001CE479 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA4136F2124453AB00946ECB /* ANEPFunction.h */;
-		name = "ANEPFunction.h: 9";
-		rLen = 0;
-		rLoc = 172;
-		rType = 0;
-		vrLen = 241;
-		vrLoc = 0;
-	};
-	FAFA5D0E12453B00001CE479 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA4136F5124453BA00946ECB /* ANEPExpression.h */;
-		name = "ANEPExpression.h: 9";
-		rLen = 0;
-		rLoc = 174;
-		rType = 0;
-		vrLen = 292;
-		vrLoc = 0;
 	};
 }

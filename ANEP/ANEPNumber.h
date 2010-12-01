@@ -14,5 +14,6 @@
 }
 - (id)makeNegative:(BOOL)really;
 - (double)doubleValue;
+- (float)floatValue;
 + (ANEPNumber *)numberWithDouble:(double)d;
 @end

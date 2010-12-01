@@ -17,6 +17,9 @@
 	return self;
 }
 + (ANEPOperator *)operatorWithCharacter:(char)c {
+	/// do not know why I did this
+	
+	
 	switch (c) {
 		case '+':
 			return [[[ANEPOperator alloc] initWithCharacter:c] autorelease];

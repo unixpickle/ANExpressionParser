@@ -12,3 +12,4 @@
 #import "ANEPOperator.h"
 #import "ANEPFunction.h"
 #import "ANEPExpression.h"
+#import "NSString+ANEP.h"

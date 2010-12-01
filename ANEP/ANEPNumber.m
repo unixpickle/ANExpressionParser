@@ -18,6 +18,10 @@
 	return self;
 }
 
+- (float)floatValue {
+	return (float)dValue;
+}
+
 - (id)description {
 	return [NSMutableString stringWithFormat:@"%f", (float)dValue];
 }

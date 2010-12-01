@@ -13,7 +13,12 @@
 	NSMutableArray * subcomponents;
 	ANEPNumber * number;
 }
-+ (ANEPExpression *)expressionWithNumber:(ANEPNumber *)_number;
+
+// CALL THESE METHODS TO PARSE AN EXPRESSION
 + (ANEPExpression *)expressionFromString:(NSString *)str variables:(NSArray *)vars;
 - (ANEPNumber *)numberValue;
+
+// methods not to be called
++ (ANEPExpression *)expressionWithNumber:(ANEPNumber *)_number;
+
 @end
