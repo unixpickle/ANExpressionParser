@@ -35,6 +35,9 @@
 - (ANEPNumber *)numberValue {
 	// calculate number
 	if (!subcomponents || [subcomponents count] <= 0) {
+		NSException * ex = [[NSException alloc] initWithName:@"ANEPParseError" reason:@"Error parsing subcomponents of expression" userInfo:nil];
+		@throw ex;
+		[ex release];
 		return [ANEPNumber numberWithDouble:0];
 	}
 	[self runOperations:'^' alt:'^'];
@@ -48,36 +51,46 @@
 }
 + (ANEPExpression *)readExpression:(NSString *)str fromIndex:(int *)j variables:(NSArray *)vars {
 	// process sub-expression
-	NSMutableString * substr = [[[NSMutableString alloc] init] autorelease];
+	//NSMutableString * substr = [[[NSMutableString alloc] init] autorelease];
+	NSMutableData * d = [[NSMutableData alloc] init];
 	int count = 1;
 	for (j[0] = j[0] + 1; j[0] < [str length]; j[0] = j[0] + 1) {
 		char c1 = [str characterAtIndex:j[0]];
 		if (c1 == '(') count++;
 		if (c1 == ')') count--;
 		if (count <= 0) break;
-		[substr appendFormat:@"%c", c1];
+		[d appendBytes:&c1 length:1];
+		//[substr appendFormat:@"%c", c1];
 	}
+	NSString * substr = [[[NSString alloc] initWithData:d encoding:NSUTF8StringEncoding] autorelease];
+	[d release];
 	ANEPExpression * subexpr = [ANEPExpression expressionFromString:substr variables:vars];
 	return subexpr;
 }
 + (ANEPNumber *)readNumber:(NSString *)str fromIndex:(int *)j {
-	NSMutableString * digitString = [NSMutableString new];
-	for (j = j; j[0] < [str length]; j[0] = j[0] + 1) {
-		char t = [str characterAtIndex:j[0]];
+	//NSMutableString * digitString = [NSMutableString new];
+	NSMutableData * myDigitString = [[NSMutableData alloc] init];
+	int length = [str length];
+	const char * chars = [str UTF8String];
+	for (j = j; j[0] < length; j[0] = j[0] + 1) {
+		char t = chars[j[0]];
 		if (!isdigit(t) && t != '.') {
 			break;
 		} else {
-			[digitString appendFormat:@"%c", t];
+			[myDigitString appendBytes:&t length:1];
+			//[digitString appendFormat:@"%c", t];
 		}
 	}
+	NSString * digitString = [[NSString alloc] initWithData:myDigitString encoding:NSUTF8StringEncoding];
+	[myDigitString release];
 	j[0] -= 1;
 	return [ANEPNumber numberWithDouble:[[digitString autorelease] doubleValue]];
 }
-+ (ANEPVariable *)variableOfName:(NSString *)name fromArray:(NSArray *)vars {
++ (ANEPVariable *)variableOfName:(char)name fromArray:(NSArray *)vars {
 	ANEPVariable * ret = nil;
 	for (int j = 0; j < [vars count]; j++) {
 		ANEPVariable * var = [vars objectAtIndex:j];
-		if ([var variableName] == [name characterAtIndex:0]) {
+		if ([var variableName] == name) {
 			ret = var;
 			break;
 		}
@@ -107,7 +120,9 @@
 					if (subexpr) lastWasNumber = YES;
 					
 				} else if (c == ')') {
-					NSLog(@"Invalid expression.");
+					NSException * ex = [[NSException alloc] initWithName:@"ANEPParenthesesError" reason:@"There were too many ')' in the expression provided" userInfo:nil];
+					@throw ex;
+					[ex release];
 					return nil;
 				} else if (isdigit(c)) {
 					ANEPNumber * _number = [ANEPExpression readNumber:(NSString *)str fromIndex:&i];
@@ -142,7 +157,7 @@
 						// it's a variable
 						ANEPVariable * variable = nil;
 						if (vars) {
-							variable = [ANEPExpression variableOfName:functionName fromArray:vars];
+							variable = [ANEPExpression variableOfName:[functionName characterAtIndex:0] fromArray:vars];
 						}
 						//lastWasNumber = NO;
 						if (variable) {
@@ -153,7 +168,13 @@
 							[subcomponents addObject:[[variable number] makeNegative:(!lastWasNumber && negative)]];
 							negative = NO;
 							lastWasNumber = YES;
-						} else return nil;
+						} else {
+							NSException * ex = [[NSException alloc] initWithName:@"ANEPUnknownVariable"
+																		  reason:[NSString stringWithFormat:@"Could not find variable of the name '%@'.", functionName] userInfo:nil];
+							@throw ex;
+							[ex release];
+							return nil;
+						}
 					} else {
 						i ++;
 						ANEPExpression * expr = [ANEPExpression readExpression:str fromIndex:&i variables:vars];
