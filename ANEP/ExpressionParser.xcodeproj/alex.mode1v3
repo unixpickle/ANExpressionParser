@@ -301,7 +301,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>870 429 788 504 0 0 1920 1058 </string>
+						<string>780 413 788 504 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA44A85712A5CAD000FDAB30</string>
+										<string>FA66EBC113009B7700F75FA7</string>
 										<key>history</key>
 										<array>
 											<string>FAFA5D0B12453B00001CE479</string>
@@ -347,7 +347,7 @@
 											<string>FA44A76D12A5C91100FDAB30</string>
 											<string>FA44A76E12A5C91100FDAB30</string>
 											<string>FA44A76F12A5C91100FDAB30</string>
-											<string>FA44A77012A5C91100FDAB30</string>
+											<string>FA44A85712A5CAD000FDAB30</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -359,14 +359,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 286}}</string>
+								<string>{{0, 0}, {580, 278}}</string>
 								<key>RubberWindowFrame</key>
-								<string>870 429 788 504 0 0 1920 1058 </string>
+								<string>780 413 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>286pt</string>
+							<string>278pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -379,14 +379,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 291}, {580, 172}}</string>
+								<string>{{0, 283}, {580, 180}}</string>
 								<key>RubberWindowFrame</key>
-								<string>870 429 788 504 0 0 1920 1058 </string>
+								<string>780 413 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>172pt</string>
+							<string>180pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -405,9 +405,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA44A77212A5C91100FDAB30</string>
+				<string>FA66EBC213009B7700F75FA7</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA44A77312A5C91100FDAB30</string>
+				<string>FA66EBC313009B7700F75FA7</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -545,15 +545,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FA44A77C12A5C91100FDAB30</string>
-		<string>FA44A77D12A5C91100FDAB30</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA41370E1244599F00946ECB</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/alex/xCode/git/ANExpressionParser/ANEP/ExpressionParser.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>870 429 788 504 0 0 1920 1058 </string>
+	<string>780 413 788 504 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -630,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA41370E1244599F00946ECB</string>
-				<string>FA44A77412A5C91100FDAB30</string>
+				<string>FA66EBC413009B7700F75FA7</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

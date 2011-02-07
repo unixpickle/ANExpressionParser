@@ -82,27 +82,28 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312853326;
-			PBXWorkspaceStateSaveDate = 312853326;
+			PBXPerProjectTemplateStateSaveDate = 318806898;
+			PBXWorkspaceStateSaveDate = 318806898;
 		};
 		perUserProjectItems = {
-			FA255DCF1247F65E00091C5C /* PBXTextBookmark */ = FA255DCF1247F65E00091C5C /* PBXTextBookmark */;
-			FA44A76912A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76912A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A76A12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76A12A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A76B12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76B12A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A76C12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76C12A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A76D12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76D12A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A76E12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76E12A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A76F12A5C91100FDAB30 /* PBXTextBookmark */ = FA44A76F12A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A77012A5C91100FDAB30 /* PBXTextBookmark */ = FA44A77012A5C91100FDAB30 /* PBXTextBookmark */;
-			FA44A85712A5CAD000FDAB30 /* PBXTextBookmark */ = FA44A85712A5CAD000FDAB30 /* PBXTextBookmark */;
-			FA5728EB12A5BBA6005E32CD /* PBXTextBookmark */ = FA5728EB12A5BBA6005E32CD /* PBXTextBookmark */;
-			FA5728EC12A5BBA6005E32CD /* PBXTextBookmark */ = FA5728EC12A5BBA6005E32CD /* PBXTextBookmark */;
-			FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */ = FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */;
-			FA5728F112A5BBA6005E32CD /* PBXTextBookmark */ = FA5728F112A5BBA6005E32CD /* PBXTextBookmark */;
-			FA5728F212A5BBA6005E32CD /* PBXTextBookmark */ = FA5728F212A5BBA6005E32CD /* PBXTextBookmark */;
-			FAFA5D0B12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0B12453B00001CE479 /* PBXTextBookmark */;
-			FAFA5D0C12453B00001CE479 /* PBXTextBookmark */ = FAFA5D0C12453B00001CE479 /* PBXTextBookmark */;
+			FA255DCF1247F65E00091C5C = FA255DCF1247F65E00091C5C /* PBXTextBookmark */;
+			FA44A76912A5C91100FDAB30 = FA44A76912A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76A12A5C91100FDAB30 = FA44A76A12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76B12A5C91100FDAB30 = FA44A76B12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76C12A5C91100FDAB30 = FA44A76C12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76D12A5C91100FDAB30 = FA44A76D12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76E12A5C91100FDAB30 = FA44A76E12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A76F12A5C91100FDAB30 = FA44A76F12A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A77012A5C91100FDAB30 = FA44A77012A5C91100FDAB30 /* PBXTextBookmark */;
+			FA44A85712A5CAD000FDAB30 = FA44A85712A5CAD000FDAB30 /* PBXTextBookmark */;
+			FA5728EB12A5BBA6005E32CD = FA5728EB12A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728EC12A5BBA6005E32CD = FA5728EC12A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728EF12A5BBA6005E32CD = FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728F112A5BBA6005E32CD = FA5728F112A5BBA6005E32CD /* PBXTextBookmark */;
+			FA5728F212A5BBA6005E32CD = FA5728F212A5BBA6005E32CD /* PBXTextBookmark */;
+			FA66EBC113009B7700F75FA7 /* PBXTextBookmark */ = FA66EBC113009B7700F75FA7 /* PBXTextBookmark */;
+			FAFA5D0B12453B00001CE479 = FAFA5D0B12453B00001CE479 /* PBXTextBookmark */;
+			FAFA5D0C12453B00001CE479 = FAFA5D0C12453B00001CE479 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FA4136EC1244537900946ECB /* Source Control */;
 		userBuildSettings = {
@@ -245,11 +246,6 @@
 		name = ANEPFunction.m;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPFunction.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1050, 532}}";
-			sepNavSelRange = "{1112, 0}";
-			sepNavVisRange = "{275, 905}";
-		};
 	};
 	FA4136F5124453BA00946ECB /* ANEPExpression.h */ = {
 		isa = PBXFileReference;
@@ -258,11 +254,6 @@
 		name = ANEPExpression.h;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 350}}";
-			sepNavSelRange = "{544, 0}";
-			sepNavVisRange = "{87, 463}";
-		};
 	};
 	FA4136F6124453BA00946ECB /* ANEPExpression.m */ = {
 		isa = PBXFileReference;
@@ -271,11 +262,6 @@
 		name = ANEPExpression.m;
 		path = /Users/alex/xCode/git/ANExpressionParser/ANEP/ANEPExpression.m;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1104, 3038}}";
-			sepNavSelRange = "{6248, 0}";
-			sepNavVisRange = "{5741, 826}";
-		};
 	};
 	FA4136F9124455AC00946ECB /* ANEPVariable.h */ = {
 		isa = PBXFileReference;
@@ -304,7 +290,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 770}}";
 			sepNavSelRange = "{480, 0}";
-			sepNavVisRange = "{211, 395}";
+			sepNavVisRange = "{239, 367}";
 		};
 	};
 	FA44A6CD12A5C8B100FDAB30 /* ANEP */ = {
@@ -429,11 +415,6 @@
 		name = math.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/architecture/i386/math.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {654, 9100}}";
-			sepNavSelRange = "{2730, 10}";
-			sepNavVisRange = "{2367, 655}";
-		};
 	};
 	FA5728EF12A5BBA6005E32CD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -464,6 +445,16 @@
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 242;
+	};
+	FA66EBC113009B7700F75FA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA44A6A812A5C52300FDAB30 /* NSString+ANEP.m */;
+		name = "NSString+ANEP.m: 22";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 239;
 	};
 	FAFA5D0B12453B00001CE479 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
