@@ -1,19 +1,25 @@
-This is a string based expression parser for Objective-C.  Simply give it a string (that is a valid mathematical expression), and it evaluates it.  This is the syntax that it can take:
+This is a string based expression parser for Objective-C.  Simply give it
+ a string (that is a valid mathematical expression), and it evaluates it.
+This is the syntax that it can take:
 (3(42^3 + sin(2*3 + 7/5)) / 200) - 2^(0.5)
 
-You can also set the value of one letter variables.  This is useful for graphing, since you can plug in different values of x.
+You can also set the value of one letter variables.  This is useful for
+graphing, since you can plug in different values of x.  Here is the usage
 
-Usage of the ANExpression class:
 
 ANEPExpression * expression = nil;
 @try {
-	expression = [ANEPExpression expressionFromString:@"3 + 3^2 + sin(x * 3)" variables:nil];
+	expression = [ANEPExpression expressionFromString:@"3 + 3^2 + sin(x * 3)"
+	                                        variables:nil];
 } @catch (NSException * ex) {
 	[pool drain];
 	return NAN;
 }
 double answer = [[expression numberValue] floatValue];
 
-There are many more features that you can use, and an NSString category for even simpler, one line syntax.  Also note that ANExpression will throw exceptions, so be prepared to catch anything that is thrown your way!
+
+There are many more features that you can use, and an NSString category
+for even simpler, one line syntax.  Also note that ANExpression will
+throw exceptions, so be prepared to catch anything that is thrown your way!
 
 NOTE: Please follow this repository if you choose to use this in your app.
